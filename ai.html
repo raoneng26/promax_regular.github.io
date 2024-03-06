@@ -976,7 +976,7 @@
               });
               const registerSW = () => {
                   if ("serviceWorker" in navigator) {
-                      navigator.serviceWorker.register("sw.js" + location.search).then(reg => console.log("Service worker register succeeded"),
+                      navigator.serviceWorker.register("chatgpt-web-main\sw.js" + location.search).then(reg => console.log("Service worker register succeeded"),
                           error => console.error(`Service worker register failed: ${error}`))
                   }
               };
