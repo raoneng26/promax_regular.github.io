@@ -438,7 +438,7 @@ main {
 
 .song {
   display: grid;
-  grid-template-columns: 26% auto 10%;
+  grid-template-columns: 26% auto 18%;
   align-items: center;
   margin-bottom: 16px;
 }
